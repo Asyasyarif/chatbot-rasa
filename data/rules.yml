@@ -1,0 +1,13 @@
+version: "3.1"
+
+rules:
+
+- rule: Ucapkan selamat tinggal kapan pun pengguna mengucapkan selamat tinggal
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Katakan 'Saya bot' kapan pun pengguna menantang
+  steps:
+  - intent: is_this_bot
+  - action: utter_iamabot

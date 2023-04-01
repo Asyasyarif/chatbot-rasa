@@ -1,0 +1,87 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello disana
+    - selamat pagi
+    - selamat siang
+    - hey disana
+    - hey gan
+    - selamat siang
+
+- intent: goodbye
+  examples: |
+    - selamat tinggal
+    - sampai berjumpa kembali
+    - selamat malam
+    - semoga harimu menyenangkan
+
+- intent: affirm
+  examples: |
+    - ya
+    - y
+    - baik
+    - tentu saja
+    - sepertinya bagus
+    - betul
+
+- intent: deny
+  examples: |
+    - tidak
+    - engga
+    - tidak pernah
+    - saya kira tidak begitu
+    - jangan lakukan seperti itu
+    - mustahil
+    - tidak begitu yakin
+
+- intent: mood_great
+  examples: |
+    - sempurna
+    - bagus
+    - keren
+    - merasa seperti seorang raja
+    - luar biasa
+    - saya merasa sangat baik
+    - saya luar biasa
+    - sangat bagus
+    - sangat sangat sempurna
+    - sangat sempurna
+    - saya sangat senang
+    - senang sekali
+    - sangan senang sekali
+    - saya sangat senang sekali
+
+- intent: mood_unhappy
+  examples: |
+    - hari saya mengerikan
+    - saya sedih
+    - Saya merasa tidak enak badan
+    - Saya kecewa
+    - sangat menyedihkan
+    - Aku sangat sedih.
+    - sedih
+    - tidak bahagia
+    - tidak baik
+    - tidak terlalu bagus
+    - sangat menyedihkan
+
+- intent: is_this_bot
+  examples: |
+    - apakah Anda seorang bot?
+    - Apakah Anda seorang manusia?
+    - apakah saya berbicara dengan bot?
+    - apakah saya berbicara dengan manusia?
+
+- intent: ordering_food
+  examples: |
+    - saya ingin memesan [nasi goreng](ordering_food)
+    - saya ingin memesan [sayur](ordering_food)
+    - saya ingin pesan makanan [sayur](ordering_food)
+    - saya ingin pesan makanan [nasi goreng](ordering_food)
+    - saya ingin [sayur](ordering_food)
+    - saya ingin [nasi goreng](ordering_food)
